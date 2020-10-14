@@ -15,8 +15,8 @@ print("Ваше число: {}, Ваша строка: {}".format(user_var_int, 
 
 user_sec = int(input("Введите время в секундах: "))
 
-hour = user_sec // 60
-min = user_sec // 60 // 60
+hour = user_sec // 60 // 60
+min = user_sec // 60
 sec = user_sec % 60
 
 if len(str(hour)) < 2:
